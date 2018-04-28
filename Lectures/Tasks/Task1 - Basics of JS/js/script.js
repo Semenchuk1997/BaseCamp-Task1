@@ -24,10 +24,10 @@ btn.addEventListener('click', function(){
 	average = getAverageWord(arr); //get average length of words in the textarea
 
 	// show results on the page
-	numberOfWords.querySelector('span').innerHTML = arr.length;
-	maxLength.querySelector('span').innerHTML = min;
-	minLength.querySelector('span').innerHTML = max;
-	averageLength.querySelector('span').innerHTML = average;
+	numberOfWords.querySelector('span').innerHTML = "<" + arr.length + ">";
+	maxLength.querySelector('span').innerHTML = "<" + min + ">";
+	minLength.querySelector('span').innerHTML = "<" + max + ">";
+	averageLength.querySelector('span').innerHTML = "<" + average + ">";
 }, false);
 
 /*

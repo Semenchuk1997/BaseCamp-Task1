@@ -1,12 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 html,body {
 	font-family: Arial;
+	height: 100%;
+	width: 100%;
+	background: url(https://images.alphacoders.com/551/5513.jpg);
+}
+
+
+span {
+	font-weight: bold;
+}
+
+div {
+	padding-top: 20px;
+}
+
+h1 {
+	padding-bottom: 20px;
 }
 
 .container{
-	margin: 0 auto;
-	width: 760px;
+	width: 50%;
+	background: #eee;
+	text-align: center;
+	padding: 50px;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .clear {
 	clear: both;
+}
+
+#btn {
+	width: 100px;
+	height: 30px;
 }
