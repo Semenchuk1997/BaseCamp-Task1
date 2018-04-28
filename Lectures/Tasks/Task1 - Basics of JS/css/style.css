@@ -1,0 +1,12 @@
+html,body {
+	font-family: Arial;
+}
+
+.container{
+	margin: 0 auto;
+	width: 760px;
+}
+
+.clear {
+	clear: both;
+}
